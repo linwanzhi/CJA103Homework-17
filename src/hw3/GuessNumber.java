@@ -15,7 +15,6 @@ public class GuessNumber {
 			guess = sc.nextInt();
 			if(guess == answer) {
 				System.out.println("答對了!答案就是" + answer);
-				break;
 			}
 			else {
 				System.out.println("猜錯囉");
@@ -24,18 +23,14 @@ public class GuessNumber {
 		
 //		do {
 //			guess = sc.nextInt();
-//			if(guess == answer) {
-//				System.out.println("答對了!答案就是" + answer);
-//				break;
-//			}
-//			else if(guess > answer) {
+//			if(guess > answer) {
 //				System.out.println(guess + "大於正確答案");
 //			}
 //			else if(guess < answer) {
 //				System.out.println(guess + "小於正確答案");
 //			}
 //			else {
-//				System.out.println("猜錯囉");
+//				System.out.println("答對了!答案就是" + answer);
 //			}
 //		}while(guess != answer);
 		
